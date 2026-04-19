@@ -1,4 +1,4 @@
-<img src="src/image/uploud.png" width="1920" height="1080" />
+<img src="src/img/uploud.png" width="1920" height="1080" />
 
 # ✨ Funcionalidades
 
