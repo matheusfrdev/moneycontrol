@@ -1,0 +1,66 @@
+<!-- FEITO COM ❤ https://github.com/matheusfrdev / -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>MoneyControl - by MATHEUS</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>💸 MoneyControl</h1>
+
+    <!-- DASHBOARD -->
+    <div class="dashboard">
+      <div class="card income">
+        <h3>Ganhos</h3>
+        <p id="income">R$ 0</p>
+      </div>
+
+      <div class="card expense">
+        <h3>Gastos</h3>
+        <p id="expense">R$ 0</p>
+      </div>
+
+      <div class="card total">
+        <h3>Total</h3>
+        <p id="balance">R$ 0</p>
+      </div>
+    </div>
+
+
+    <!-- FORM -->
+    <div class="form">
+      <input type="text" id="desc" placeholder="Descrição">
+      <input type="number" id="amount" placeholder="Valor">
+
+      <select id="category">     
+        <option>Geral</option>
+        <option>Comida</option>
+        <option>Lazer</option>
+       <option>Transporte</option>                   
+      </select>
+
+      <input type="date" id="date">
+
+      <button onclick="addTransaction()">Adicionar</button>
+    </div>
+
+    <h3>Histórico</h3>
+    <div id="list"></div>
+
+  </div>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+
+
+
+</body>
+</html>
