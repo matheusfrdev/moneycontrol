@@ -1,4 +1,38 @@
-# moneycontrol
-fui jogar basquete, depois faço um readme bonito e upo os arquivoskkkkk
 
-<img width="1599" height="739" alt="image" src="https://github.com/user-attachments/assets/aa163221-3bb5-4fad-ba5e-771cb021877a" />
+
+# ✨ Funcionalidades
+
+* 📊 Dashboard com resumo financeiro (ganhos, gastos e saldo)
+* ➕ Adição de transações com descrição, valor, categoria e data
+* 🔎 Filtro por categoria
+* 🧾 Histórico dinâmico de transações
+
+# 🛠️ Tecnologias
+
+* HTML
+* CSS
+* JavaScript
+
+
+# 🚀 Uso
+
+```bash
+git clone https://github.com/seu-usuario/moneycontrol.git
+```
+
+Abra o arquivo:
+
+```bash
+index.html
+```
+
+Pronto! Agora é só começar a organizar suas finanças 💰
+
+# 💡 Possíveis melhorias
+
+* 💾 Integração com LocalStorage
+* 🗑️ Remover transações
+* 🌙 Modo escuro
+* 📱 Responsividade avançada
+* 📊 Gráficos dinâmicos com filtros
+* 🔐 Sistema de login
