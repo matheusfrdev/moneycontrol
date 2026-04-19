@@ -17,7 +17,7 @@
 # 🚀 Uso
 
 ```bash
-git clone https://github.com/seu-usuario/moneycontrol.git
+git clone https://github.com/matheusfrdev/moneycontrol
 ```
 
 Abra o arquivo:
